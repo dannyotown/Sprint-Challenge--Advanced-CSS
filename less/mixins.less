@@ -1,1 +1,15 @@
 // Mixins Here
+.flexDisplay(@typeInFlex,@flex-direc){
+    display: @typeInFlex;
+    flex-direction: @flex-direc;
+    justify-content: center;   
+}
+.buttonMixin(@textColor, @backgroundColor, @remSize){
+    color: @textColor;
+    background-color:@backgroundColor;
+    font-size: @remSize;
+    text-align: center;
+    padding: 2% 4% 2% 4%;
+    width: 25%;
+    border-radius:5px; 
+}
