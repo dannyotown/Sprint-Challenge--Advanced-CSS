@@ -4,12 +4,25 @@
     flex-direction: @flex-direc;
     justify-content: center;   
 }
-.buttonMixin(@textColor, @backgroundColor, @remSize){
+.buttonMixin(@textColor, @backgroundColor, @remSize, @paddingPercent, @widthPercent){
     color: @textColor;
     background-color:@backgroundColor;
     font-size: @remSize;
     text-align: center;
-    padding: 2% 4% 2% 4%;
-    width: 25%;
+    padding: @paddingPercent;
+    width: @widthPercent;
     border-radius:5px; 
+}
+.centerItems(){
+    align-items: center;
+    justify-content: center;
+}
+.marginLeftRight(@marginLeft, @marginRight){
+    margin-left: @marginLeft;
+    margin-right: @marginRight;
+}
+
+.h1FontSizeAlignCenter(){
+    font-size: 4rem;
+    text-align: center;
 }
