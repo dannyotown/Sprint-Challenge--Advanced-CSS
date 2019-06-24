@@ -179,6 +179,12 @@ p {
   margin-left: 35%;
   margin-right: 35%;
 }
+@media (max-width: 1440px) {
+  .navBarClass .headerNavigation {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
 @media (max-width: 500px) {
   .navBarClass .headerNavigation {
     margin-left: 5%;
