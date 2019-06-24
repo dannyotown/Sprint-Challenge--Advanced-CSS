@@ -304,6 +304,15 @@ footer {
     width: 100%;
     border-radius: 5px;
   }
+  .home .walk .walk-text .btn:hover {
+    color: #23293B;
+    background-color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+    width: 100%;
+    border-radius: 5px;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
